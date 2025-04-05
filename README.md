@@ -112,7 +112,7 @@ Ajustar configurações de timeout e corrigir erro de timeout execedido ao invoc
 
 ```
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
-
+Eu reduzi o tempo de resposta do serviço de 5000 para 2000.
 
 
 ```
@@ -179,6 +179,7 @@ Alterar limite de requisições permitidas para 100 num intervalo de 1 minuto e 
 
 ```
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
+Alterei o max: 5 para max: 100 no rate limiter.
 
 
 
@@ -246,7 +247,7 @@ Aumentar quantidade de chamadas simultâneas e avaliar o comportamento.
 
 ```
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
-
+Alterei a quantidade de chamadas simultaneas de 2 para 5.
 
 
 ```
@@ -327,6 +328,8 @@ Observar comportamento do circuito no console.
 
 ```
 // INSIRA SUA ANÁLISE OU PARECER ABAIXO
+Eu Reduzi a margem de falhas para Math.random() > 0.5 psrs atingir o errorThresholdPercentage mais rapidamente.
+
 
 
 
